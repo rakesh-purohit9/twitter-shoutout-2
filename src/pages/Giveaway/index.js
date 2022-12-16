@@ -2,7 +2,7 @@ import React from "react";
 
 import { Column, Row, Img, Text, Grid } from "components";
 import TweetCard from "../../components/TweetCard";
-import { DhiWiseTweets } from "../../contants/tweets";
+import { DhiWiseTweets } from "../../constants/tweets";
 
 const GiveawayPage = () => {
   return (
