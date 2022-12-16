@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Column, Row, Img, Text, Grid } from "components";
-import TweetCard from "../../components/TweetCard";
+import TweetCard from "../../components/common/TweetCard";
 import { DhiWiseTweets } from "../../constants/tweets";
 
 const GiveawayPage = () => {
@@ -20,7 +20,7 @@ const GiveawayPage = () => {
               as="h1"
               variant="h1"
             >
-              DhiWise x AWS Ahmedabad Shoutout
+              Click to Tweet for DhiWise
             </Text>
           </Row>
           <Column className="flex flex-col items-center justify-start sm:mt-[34px] md:mt-[44px] mt-[64px] w-[100%] sm:mb-16">
